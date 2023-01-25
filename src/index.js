@@ -1,14 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
-import Clock from './App';
-import App from './App';
+import Ccomponent from './Ccomponent';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Game /> */}
-    <Clock/>
+    
+    <Ccomponent  title = "Ismailov"/>
   </React.StrictMode>
 );
 
